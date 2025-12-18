@@ -1,0 +1,57 @@
+{
+  "Data Analyst": {
+    "must_have": ["SQL", "Excel", "Data Visualization", "Statistics", "Python"],
+    "nice_to_have": ["Tableau", "Power BI", "A/B Testing", "Machine Learning"],
+    "keywords": ["dashboard", "insights", "analytics", "reporting"]
+  },
+  "Machine Learning Engineer": {
+    "must_have": ["Python", "PyTorch", "TensorFlow", "Scikit-Learn", "SQL"],
+    "nice_to_have": ["Docker", "Kubernetes", "MLOps", "AWS"],
+    "keywords": ["model", "training", "deployment", "inference"]
+  },
+  "Financial Analyst": {
+    "must_have": ["Financial Modeling", "Excel VBA", "Accounting Fundamentals", "Reporting"],
+    "nice_to_have": ["CFA", "SAP", "Bloomberg Terminal", "SQL"],
+    "keywords": ["budgeting", "forecasting", "valuation", "p&l"]
+  },
+  "Investment Banker": {
+    "must_have": ["M&A Experience", "Valuation", "Financial Statements", "Excel"],
+    "nice_to_have": ["Pitch Books", "Capital Markets", "Series 7"],
+    "keywords": ["equity", "advisory", "transaction"]
+  },
+  "Civil Engineer": {
+    "must_have": ["AutoCAD", "Structural Analysis", "Project Management", "Technical Drawing"],
+    "nice_to_have": ["Revit", "SAP2000", "BIM", "Civil 3D"],
+    "keywords": ["construction", "infrastructure", "surveying", "concrete"]
+  },
+  "Electrical Engineer": {
+    "must_have": ["MATLAB", "Circuit Design", "Power Systems", "AutoCAD"],
+    "nice_to_have": ["PLC Programming", "ETAP", "IoT", "Embedded Systems"],
+    "keywords": ["electronics", "voltage", "schematics", "hardware"]
+  },
+  "Project Manager": {
+    "must_have": ["Agile", "Scrum", "Risk Management", "Budgeting", "Stakeholder Management"],
+    "nice_to_have": ["PMP", "Jira", "MS Project", "Lean"],
+    "keywords": ["milestones", "backlog", "delivery", "resource planning"]
+  },
+  "Marketing Manager": {
+    "must_have": ["Digital Marketing", "SEO", "Content Strategy", "Google Analytics"],
+    "nice_to_have": ["Copywriting", "CRM", "PPC", "Social Media Management"],
+    "keywords": ["campaign", "branding", "roi", "customer acquisition"]
+  },
+  "Healthcare Administrator": {
+    "must_have": ["Health Records Management", "Budgeting", "Compliance", "Hospital Operations"],
+    "nice_to_have": ["MHA Degree", "Six Sigma", "Billing Software"],
+    "keywords": ["patient care", "regulatory", "healthcare policy"]
+  },
+  "Human Resources (HR) Specialist": {
+    "must_have": ["Recruitment", "Employee Relations", "Payroll Management", "Labor Law"],
+    "nice_to_have": ["SHRM Certified", "LinkedIn Recruiter", "Performance Management"],
+    "keywords": ["hiring", "onboarding", "talent acquisition", "culture"]
+  },
+  "Sales Executive": {
+    "must_have": ["B2B Sales", "Negotiation", "CRM", "Lead Generation"],
+    "nice_to_have": ["Salesforce", "Cold Calling", "Market Analysis"],
+    "keywords": ["revenue", "targets", "prospecting", "pipeline"]
+  }
+}
