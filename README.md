@@ -1,53 +1,40 @@
-<<<<<<< HEAD
-# AI_ResumeAnalyzer
-=======
-# Career Copilot AI: Multi-Industry Career Optimization and Analysis Engine
+# Career Copilot AI: Strategic Career Engineering Platform
 
-Career Copilot AI is an end-to-end career engineering platform designed to analyze professional resumes against diverse industry dynamics, execute data-driven scoring, and provide personalized growth roadmaps through Large Language Model (LLM) integration.
+Career Copilot AI is an intelligent framework designed to automate resume analysis and provide data-driven career growth strategies. By leveraging Large Language Models (LLMs) and industry-specific taxonomies, it bridges the gap between candidate profiles and high-level job requirements.
 
-## Project Vision
-Traditional Applicant Tracking Systems (ATS) often focus solely on keyword matching. Career Copilot AI transcends this by anonymizing candidate data, cross-referencing it with industry-specific taxonomies, and delivering qualitative enhancement suggestions powered by advanced generative AI.
+## Live Experience
+The application is deployed and ready for live testing. You can access the professional dashboard and analyze your resume here:
+**[Launch Career Copilot AI](https://airesumeanalyzer-jzqsghqfecqgvuaud3tnvf.streamlit.app/)**
 
-## Core Functional Modules
+---
 
-### 1. Dynamic Role Taxonomy and Matching Engine
-The system features an extensive library covering dozens of sub-roles across sectors such as Finance, Healthcare, Engineering, Management, and Technology. It utilizes a hybrid scoring algorithm based on pre-defined critical (Must-have) and complementary (Nice-to-have) skill sets.
+## Key Features
 
-### 2. Privacy and PII Redaction
-To ensure user data security, all resume content undergoes PII (Personally Identifiable Information) redaction before being transmitted to AI models. Sensitive identifiers, including email addresses and phone numbers, are automatically masked.
+### 1. Multi-Industry Skill Mapping
+The engine features a sophisticated role catalog covering Finance, Technology, Healthcare, Engineering, and Management. It executes a hybrid scoring algorithm that evaluates both "Must-have" and "Nice-to-have" competencies.
 
-### 3. AI-Driven Strategic Development Roadmap
-Leveraging OpenAI's models, the system identifies specific "Skill Gaps" and constructs a 4-week, application-oriented development plan. This roadmap includes both theoretical milestones and tangible project suggestions suitable for portfolio platforms like GitHub.
+### 2. Privacy-Centric Architecture
+Data security is integrated at the core. The system utilizes a PII (Personally Identifiable Information) Redaction layer to mask sensitive identifiers like emails and phone numbers before any AI processing occurs.
 
-### 4. Content Optimization via STAR Methodology
-Existing candidate experiences are re-interpreted using the industry-standard STAR (Situation, Task, Action, Result) technique. This module enables candidates to transform static job descriptions into impact-oriented, metric-driven achievements.
+### 3. AI-Driven Growth Roadmap
+Using OpenAI's GPT models, the platform identifies specific skill gaps and constructs a personalized 4-week development plan. This includes technical milestones and hands-on project suggestions tailored to the candidate's target role.
 
-## Technical Architecture
+### 4. Experience Optimization (STAR Method)
+The platform features an AI assistant that re-interprets existing resume bullet points using the STAR (Situation, Task, Action, Result) methodology, transforming static job descriptions into impact-oriented achievements.
 
+## Technical Implementation
 
+### Tech Stack
+- **Interface:** Streamlit with custom CSS and dark mode integration.
+- **NLP Processing:** SpaCy and dedicated parsers for PDF/DOCX.
+- **AI Integration:** OpenAI GPT API for contextual analysis and generation.
+- **Data Layer:** JSON-based hierarchical role taxonomy.
 
-### Layered Infrastructure
-- **Interface Layer:** Modernized UI developed with the Streamlit framework, utilizing custom CSS configurations for enhanced user experience.
-- **Analysis Layer:** NLP engine based on SpaCy, coupled with a parsing layer capable of processing complex file formats including PDF and DOCX.
-- **Intelligence Layer:** Contextual analysis and generation engine powered by OpenAI GPT API integration.
-- **Data Layer:** JSON-based role cataloging and hierarchical skill mapping system.
+### Setup for Developers
+For those who wish to run the engine locally:
+1. Clone the repository and install dependencies via `pip install -r requirements.txt`.
+2. Configure your OpenAI API Key in a `.env` file.
+3. Launch the dashboard using `streamlit run app/Home.py`.
 
-## Installation and Configuration
-
-1. Clone the repository:
-   git clone https://github.com/Huseyinvk/AI_ResumeAnalyzer.git
-   cd AI_ResumeAnalyzer
-
-2. Install dependencies:
-   pip install -r requirements.txt
-
-3. Environment Setup:
-   Create a .env file in the root directory and add your OpenAI API key:
-   OPENAI_API_KEY=your_api_key_here
-
-4. Launch the application:
-   streamlit run app/Home.py
-
-## License
-This project is released under the MIT License. It is available for both commercial and personal use, provided that privacy protocols are maintained during development cycles.
->>>>>>> 242da00 (feat: complete professional AI career copilot architecture)
+---
+*Created by Hüseyin to revolutionize career transitions through the power of Artificial Intelligence.*
