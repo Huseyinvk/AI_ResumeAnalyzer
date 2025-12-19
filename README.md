@@ -37,4 +37,7 @@ For those who wish to run the engine locally:
 3. Launch the dashboard using `streamlit run app/Home.py`.
 
 ---
-*Created by Hüseyin to revolutionize career transitions through the power of Artificial Intelligence.*
+*Created by Huseyinvk to revolutionize career transitions through the power of Artificial Intelligence.*
+
+## Ethical Disclosure & Acknowledgements
+This project has been developed with the strategic assistance of Large Language Models (LLMs). These AI tools were utilized during the architectural design, code optimization, and documentation phases to ensure high-quality standards and professional output.
